@@ -1,0 +1,63 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: '100%';
+  justify-content: center;
+}
+
+.title{
+  background-color: aqua;
+  width: 80%;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+
+}
+
+.taskInputContanier{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.taskInput{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+   width: 80%;
+  gap: 10px;
+}
+
+.inputBox{
+  width: 200px;
+  height: 30px;
+}
+
+.button{
+  border-radius: 20px;
+  width: 100px;
+}
+
+.tasks {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  height: 400px;
+  width: 100%;
+}
+
+.taskItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-style: dotted;
+  border-width: 2px;
+  width: 300px;
+}
+

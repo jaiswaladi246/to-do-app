@@ -1,0 +1,1 @@
+sample_secrets.txt  filter=crypt diff=crypt merge=crypt
